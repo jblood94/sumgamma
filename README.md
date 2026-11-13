@@ -102,3 +102,4 @@ sumgamma_moments(shape, rate)
 ## License
 
 GPL (>= 3)
+
