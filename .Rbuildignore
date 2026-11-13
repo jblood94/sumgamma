@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^GammaSum[0-9]*\.R$
+^calc_psumgamma\.cpp$
+^compute_g\.cpp$
+^scratch$
+^\.system_generated$
+

@@ -1,0 +1,33 @@
+Package: sumgamma
+Type: Package
+Title: Fast, High-Precision Distribution Functions for Sums of Gamma Variables
+Version: 0.1.0
+Authors@R: c(
+    person("Given", "Family", , "author@example.com", role = c("aut", "cre"))
+  )
+Description: Provides ultra-fast, high-precision distribution functions (CDF, PDF,
+    quantile, and random variate generation) for the convolution of arbitrary
+    independent, non-identical Gamma random variables. Implements three complementary
+    numerical architectures: 1) Singularity-adapted saddlepoint contour integration with
+    Wynn's epsilon acceleration and suffix-moment Taylor expansions for exact evaluation
+    across extreme tails; 2) 80-bit extended-precision Radix-2 FFT Moschopoulos infinite
+    mixture series expansions; and 3) Richardson leave-half-out adaptive Hyman monotonic
+    splines with guaranteed error bounds for sub-microsecond vector evaluation.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+SystemRequirements: C++17
+LinkingTo: 
+    Rcpp
+Imports: 
+    Rcpp (>= 1.0.8),
+    graphics,
+    stats
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://github.com/jblood94/sumgamma
+BugReports: https://github.com/jblood94/sumgamma/issues
+Config/roxygen2/version: 8.1.0

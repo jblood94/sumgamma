@@ -1,0 +1,36 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# Example: generate with devtools::build() -- exclude binaries
+*.tar.gz
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# Compiled object files
+src/*.o
+src/*.so
+src/*.dll
+src/*.dylib
+src/*.a
+src/tmp.def
+
+# Top-level prototype and exploration scripts
+/scratch/
+/GammaSum*.R
+/calc_psumgamma.cpp
+/compute_g.cpp
